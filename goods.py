@@ -4,3 +4,5 @@
 # @Project : git-test-v0
 
 GOODS = ['iPhone', 'iWatch', 'iMac']
+for good in GOODS:
+    print(f"I will buy {good}")
