@@ -4,3 +4,6 @@
 # @Project : git-test-v0
 
 print("myCrawl spider.")
+
+# fix
+print("myCrawl spider rule.")
