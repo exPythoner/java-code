@@ -7,3 +7,15 @@ class User:
     def __init__(self):
         self.uid = '10010'
         self.name = 'Hason'
+
+    def _printInfo(self):
+        print(f"[ INFO ] uid: {self.uid}\n\t\tname: {self.name}")
+
+    def run(self):
+        # print
+        self._printInfo()
+
+
+if __name__ == '__main__':
+    app = User()
+    app.run()
