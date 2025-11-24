@@ -3,7 +3,7 @@
 # @File : goods.py
 # @Project : git-test-v0
 
-GOODS = ['iPhone', 'iWatch', 'iMac']
+GOODS = ['iPhone', 'iWatch', 'iMac', 'iVersion']
 for good in GOODS:
     print(f"I will buy {good}")
 
