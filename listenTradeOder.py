@@ -6,3 +6,7 @@
 class ListenTradeOrder:
     def __init__(self):
         print("[交易微服务]: 监听订单交易微服务")
+
+
+if __name__ == '__main__':
+    app = ListenTradeOrder()
