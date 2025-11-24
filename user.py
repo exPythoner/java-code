@@ -7,9 +7,10 @@ class User:
     def __init__(self):
         self.uid = '10010'
         self.name = 'Hason'
+        self.gender = 'man'
 
     def _printInfo(self):
-        print(f"[ INFO ] uid: {self.uid}\n\t\tname: {self.name}")
+        print(f"[ INFO ] uid: {self.uid}\n\t\tname: {self.name}\n\t\tgender: {self.gender}")
 
     def run(self):
         # print
