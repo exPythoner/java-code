@@ -9,6 +9,6 @@ for i in range(10):
 
 # list 数组
 j = 0
-for name in ['apple', 'python', 'java', 'php', 'redis', 'shell', 'mybatis', 'mybatis-plugin']:
+for name in ['apple', 'python', 'java', 'php', 'redis', 'shell', 'mybatis', 'mybatis-plugin','springboot','springCloud']:
     print(f"{j}){name}")
     j = j + 1
