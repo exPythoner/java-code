@@ -7,6 +7,15 @@
 for i in range(10):
     print(f"loop_{i}")
 
+
+def split_line():
+    print("\n")
+    print("*" * 100)
+    # print("\n")
+
+
+split_line()
+
 # list 数组
 j = 0
 for name in ['apple', 'python', 'java', 'php', 'redis', 'shell', 'mybatis', 'mybatis-plugin']:
