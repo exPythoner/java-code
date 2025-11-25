@@ -16,6 +16,9 @@ class GoodSpider:
     def __str__(self):
         print("print goods info. {}".format(self.goods_name))
 
+    def parse_goods(self):
+        print("解析商品信息")
+
     def run(self):
         for g in GOODS:
             self.__init__(g, 10)
